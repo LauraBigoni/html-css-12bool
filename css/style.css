@@ -4,17 +4,16 @@ body {
 
 [class^="col"] {
     height: 50px;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: pink;
 }
 
-.row {
-    height: 50px;
-}
-
 .nested {
-    height: 30px;
+    height: 35px;
     background-color: aquamarine;
-    border: 1px solid pink
+    border: 2px solid pink
 }
 
+h1 {
+    margin: 20px 0;
+}
