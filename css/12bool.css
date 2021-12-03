@@ -1,0 +1,32 @@
+/**Reset everything**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/**Container**/
+.container {
+    max-width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    display: flex;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.col {
+    flex-direction: column;
+}
