@@ -50,6 +50,7 @@
 .align-end {
     align-items: flex-end;
 }
+
 /**GUTTER**/
 .row.g-1 {
     margin-left: -10px;
