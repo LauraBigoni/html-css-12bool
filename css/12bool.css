@@ -5,28 +5,27 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: sans-serif;
+/**Container**/
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
 }
 
-/**Container**/
 .container {
-    max-width: 100%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.container-fluid {
-    display: flex;
-    width: 100%;
-}
-
+/**ROW**/
 .row {
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
 }
 
+/**COLUMNS**/
 .col {
-    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
 }
