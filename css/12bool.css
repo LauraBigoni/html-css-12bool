@@ -25,18 +25,18 @@
 /**UTILITIES PER ALLINEAMENTO**/
 /* ! usare solo sulle row */
 .content-start {
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
 }
 
 .content-center {
-    justify-content: flex-end;
-    text-align: end;
+    justify-content: center;
+    text-align: center;
 }
 
 .content-end {
-    justify-content: flex-start;
-    text-align: start;
+    justify-content: flex-end;
+    text-align: end;
 }
 
 .align-start {

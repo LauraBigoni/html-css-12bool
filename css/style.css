@@ -4,6 +4,10 @@ body {
 
 [class^="col"] {
     height: 50px;
-    background-color: pink;
     border: 1px solid black;
+}
+
+.row {
+    height: 50px;
+    background-color: pink;
 }
