@@ -1,11 +1,11 @@
-/**Reset everything**/
+/**RESET ALL**/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/**Container**/
+/**CONTAINER**/
 .container-fluid {
     width: 100%;
     max-width: 100%;
@@ -17,6 +17,35 @@
     margin: 0 auto;
 }
 
+/**UTILITIES PER ALLINEAMENTO**/
+/* ! usare solo sulle row */
+.content-start {
+    justify-content: center;
+    text-align: center;
+}
+
+.content-center {
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.content-end {
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
 /**ROW**/
 .row {
     display: flex;
@@ -24,19 +53,19 @@
 }
 
 /** COLUMNS**/
-/* Regole comuni a tutte le colonne */
+/* ! Regole comuni a tutte le colonne */
 [class^="col"] {
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto;
 }
 
-/* Si dividono equamente lo spazio */
+/* ! Si dividono equamente lo spazio */
 .col {
     flex-grow: 1;
 }
 
-/* Occupano i 12 specificati */
+/* ! Occupano i 12 specificati */
 .col-12 {
     flex-basis: 100%;
     max-width: 100%;
