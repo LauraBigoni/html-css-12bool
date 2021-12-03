@@ -197,6 +197,14 @@
 /**SMALL DEVICES**/
 @media screen and (576px) {
     /**GUTTER**/
+    .row.g-sm-1 {
+        margin-left: -10px;
+        margin-right:  -10px;
+    }
+    .row.g-sm-1 > [class^="col"] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .row.g-sm-2 {
         margin-left: -20px;
         margin-right:  -20px;
@@ -204,6 +212,30 @@
     .row.g-sm-2 > [class^="col"] {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .row.g-sm-3 {
+        margin-left: -30px;
+        margin-right:  -30px;
+    }
+    .row.g-sm-3 > [class^="col"] {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .row.g-sm-4 {
+        margin-left: -40px;
+        margin-right:  -40px;
+    }
+    .row.g-sm-4 > [class^="col"] {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .row.g-sm-5 {
+        margin-left: -50px;
+        margin-right:  -50px;
+    }
+    .row.g-sm-5 > [class^="col"] {
+        padding-left: 50px;
+        padding-right: 50px;
     }
     /**COLUMNS**/
     .col-sm-12 {
@@ -297,6 +329,14 @@
 /**MEDIUM DEVICES**/
 @media screen and (768px) {
     /**GUTTER**/
+    .row.g-md-1 {
+        margin-left: -10px;
+        margin-right:  -10px;
+    }
+    .row.g-md-1 > [class^="col"] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .row.g-md-2 {
         margin-left: -20px;
         margin-right:  -20px;
@@ -304,6 +344,30 @@
     .row.g-md-2 > [class^="col"] {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .row.g-md-3 {
+        margin-left: -30px;
+        margin-right:  -30px;
+    }
+    .row.g-md-3 > [class^="col"] {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .row.g-md-4 {
+        margin-left: -40px;
+        margin-right:  -40px;
+    }
+    .row.g-md-4 > [class^="col"] {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .row.g-md-5 {
+        margin-left: -50px;
+        margin-right:  -50px;
+    }
+    .row.g-md-5 > [class^="col"] {
+        padding-left: 50px;
+        padding-right: 50px;
     }
     /**COLUMNS**/
     .col-md-12 {
@@ -397,6 +461,14 @@
 /**LARGE DEVICES**/
 @media screen and (992px) {
     /**GUTTER**/
+    .row.g-lg-1 {
+        margin-left: -10px;
+        margin-right:  -10px;
+    }
+    .row.g-lg-1 > [class^="col"] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .row.g-lg-2 {
         margin-left: -20px;
         margin-right:  -20px;
@@ -404,6 +476,30 @@
     .row.g-lg-2 > [class^="col"] {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .row.g-lg-3 {
+        margin-left: -30px;
+        margin-right:  -30px;
+    }
+    .row.g-lg-3 > [class^="col"] {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .row.g-lg-4 {
+        margin-left: -40px;
+        margin-right:  -40px;
+    }
+    .row.g-lg-4 > [class^="col"] {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .row.g-lg-5 {
+        margin-left: -50px;
+        margin-right:  -50px;
+    }
+    .row.g-lg-5 > [class^="col"] {
+        padding-left: 50px;
+        padding-right: 50px;
     }
     /**COLUMNS**/
     .col-lg-12 {
@@ -497,6 +593,14 @@
 /**XL DEVICES**/
 @media screen and (1200px) {
     /**GUTTER**/
+    .row.g-xl-1 {
+        margin-left: -10px;
+        margin-right:  -10px;
+    }
+    .row.g-xl-1 > [class^="col"] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .row.g-xl-2 {
         margin-left: -20px;
         margin-right:  -20px;
@@ -504,6 +608,30 @@
     .row.g-xl-2 > [class^="col"] {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .row.g-xl-3 {
+        margin-left: -30px;
+        margin-right:  -30px;
+    }
+    .row.g-xl-3 > [class^="col"] {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .row.g-xl-4 {
+        margin-left: -40px;
+        margin-right:  -40px;
+    }
+    .row.g-xl-4 > [class^="col"] {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .row.g-xl-5 {
+        margin-left: -50px;
+        margin-right:  -50px;
+    }
+    .row.g-xl-5 > [class^="col"] {
+        padding-left: 50px;
+        padding-right: 50px;
     }
     /**COLUMNS**/
     .col-xl-12 {
