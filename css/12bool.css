@@ -23,9 +23,125 @@
     flex-flow: row wrap;
 }
 
-/**COLUMNS**/
-.col {
-    flex-grow: 1;
+/** COLUMNS**/
+/* Regole comuni a tutte le colonne */
+[class^="col"] {
+    flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto;
+}
+
+/* Si dividono equamente lo spazio */
+.col {
+    flex-grow: 1;
+}
+
+/* Occupano i 12 specificati */
+.col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.col-11 {
+    flex-basis: calc(100% / 12 * 11);
+    max-width: calc(100% / 12 * 11);
+}
+
+.col-10 {
+    flex-basis: calc(100% / 12 * 10);
+    max-width: calc(100% / 12 * 10);
+}
+
+.col-9 {
+    flex-basis: calc(100% / 12 * 9);
+    max-width: calc(100% / 12 * 9);
+}
+
+.col-8 {
+    flex-basis: calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
+}
+
+.col-7 {
+    flex-basis: calc(100% / 12 * 7);
+    max-width: calc(100% / 12 * 7);
+}
+
+.col-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.col-5 {
+    flex-basis: calc(100% / 12 * 5);
+    max-width: calc(100% / 12 * 5);
+}
+
+.col-4 {
+    flex-basis: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+}
+
+.col-3 {
+    flex-basis: calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 3);
+}
+
+.col-2 {
+    flex-basis: calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+}
+
+.col-1 {
+    flex-basis: calc(100% / 12);
+    max-width: calc(100% / 12);
+}
+
+/**OFFSET**/
+.offset-1 {
+    margin-left: calc(100% / 12);
+}
+
+.offset-2 {
+    margin-left: calc(100% / 12 * 2);
+}
+
+.offset-3 {
+    margin-left: calc(100% / 12 * 3);
+}
+
+.offset-4 {
+    margin-left: calc(100% / 12  * 4);
+}
+
+.offset-5 {
+    margin-left: calc(100% / 12  * 5);
+}
+
+.offset-6 {
+    margin-left: 50%;
+}
+
+.offset-7 {
+    margin-left: calc(100% / 12  * 7);
+}
+
+.offset-8 {
+    margin-left: calc(100% / 12  * 8);
+}
+
+.offset-9 {
+    margin-left: calc(100% / 12 * 9);
+}
+
+.offset-10 {
+    margin-left: calc(100% / 12 * 10);
+}
+
+.offset-11 {
+    margin-left: calc(100% / 12 * 11);
+}
+
+.offset-12 {
+    margin-left: 100%;
 }
